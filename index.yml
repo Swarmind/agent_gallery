@@ -1,0 +1,14 @@
+- name: News Summarizer Demo Agent
+  url: github:Swarmind/agent_gallery/agents/news_summarizer.yml@master
+  description: |
+    A simple demo agent that uses SearXNG to find news and summarizes them using an LLM.
+  homepage: https://github.com/Swarmind/newsDemoAgent
+  mode: showcase
+
+- name: Sample listing
+  url: github:Swarmind/agent_gallery/agents/demo_listing.yml@master
+  description: |
+    A dummy listing demo
+  homepage: https://swarmind.ai
+  mode: listing
+  
