@@ -32,6 +32,8 @@ showcase:
         title: Language
         description: "The language of the news results."
         default: "en"
+        maxProperties: 1
+        additionalProperties: false
         oneOf:
           - type: string
             const: "af"
@@ -224,6 +226,8 @@ showcase:
         type: string
         title: Region
         description: "Geographic region for the news search."
+        maxProperties: 1
+        additionalProperties: false
         oneOf:
           - type: string
             const: "af"
@@ -416,6 +420,8 @@ showcase:
         type: string
         title: Time Range
         description: "How far back to search for news."
+        maxProperties: 1
+        additionalProperties: false
         oneOf:
           - type: string
             const: "day"
