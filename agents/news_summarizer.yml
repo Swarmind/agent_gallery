@@ -26,282 +26,410 @@ showcase:
         title: Search Query
         description: "Keywords for the news you want to summarize."
         example: "Artificial Intelligence advancements"
-  
+
       lang:
         type: string
         title: Language
         description: "The language of the news results."
         default: "en"
         oneOf:
-          - const: "af"
+          - type: string
+            const: "af"
             title: "Afrikaans"
-          - const: "ar"
+          - type: string
+            const: "ar"
             title: "العربية (Arabic)"
-          - const: "bg"
+          - type: string
+            const: "bg"
             title: "Български (Bulgarian)"
-          - const: "bn"
+          - type: string
+            const: "bn"
             title: "বাংলা (Bangla)"
-          - const: "bo"
+          - type: string
+            const: "bo"
             title: "བོད་སྐད་ (Tibetan)"
-          - const: "ca"
+          - type: string
+            const: "ca"
             title: "Català (Catalan)"
-          - const: "cs"
+          - type: string
+            const: "cs"
             title: "Čeština (Czech)"
-          - const: "cy"
+          - type: string
+            const: "cy"
             title: "Cymraeg (Welsh)"
-          - const: "da"
+          - type: string
+            const: "da"
             title: "Dansk (Danish)"
-          - const: "de"
+          - type: string
+            const: "de"
             title: "Deutsch (German)"
-          - const: "dv"
+          - type: string
+            const: "dv"
             title: "ދިވެހި (Dhivehi)"
-          - const: "el-GR"
+          - type: string
+            const: "el-GR"
             title: "Ελληνικά, Ελλάδα (Greek, Greece)"
-          - const: "en"
+          - type: string
+            const: "en"
             title: "English"
-          - const: "eo"
+          - type: string
+            const: "eo"
             title: "Esperanto"
-          - const: "es"
+          - type: string
+            const: "es"
             title: "Español (Spanish)"
-          - const: "et"
+          - type: string
+            const: "et"
             title: "Eesti (Estonian)"
-          - const: "eu"
+          - type: string
+            const: "eu"
             title: "Euskara (Basque)"
-          - const: "fa-IR"
+          - type: string
+            const: "fa-IR"
             title: "فارسی, ایران (Persian, Iran)"
-          - const: "fi"
+          - type: string
+            const: "fi"
             title: "Suomi (Finnish)"
-          - const: "fil"
+          - type: string
+            const: "fil"
             title: "Filipino"
-          - const: "fr"
+          - type: string
+            const: "fr"
             title: "Français (French)"
-          - const: "ga"
+          - type: string
+            const: "ga"
             title: "Gaeilge (Irish)"
-          - const: "gl"
+          - type: string
+            const: "gl"
             title: "Galego (Galician)"
-          - const: "he"
+          - type: string
+            const: "he"
             title: "עברית (Hebrew)"
-          - const: "hr"
+          - type: string
+            const: "hr"
             title: "Hrvatski (Croatian)"
-          - const: "hu"
+          - type: string
+            const: "hu"
             title: "Magyar (Hungarian)"
-          - const: "ia"
+          - type: string
+            const: "ia"
             title: "Interlingua"
-          - const: "id"
+          - type: string
+            const: "id"
             title: "Indonesia (Indonesian)"
-          - const: "it"
+          - type: string
+            const: "it"
             title: "Italiano (Italian)"
-          - const: "ja"
+          - type: string
+            const: "ja"
             title: "日本語 (Japanese)"
-          - const: "ko"
+          - type: string
+            const: "ko"
             title: "한국어 (Korean)"
-          - const: "lt"
+          - type: string
+            const: "lt"
             title: "Lietuvių (Lithuanian)"
-          - const: "lv"
+          - type: string
+            const: "lv"
             title: "Latviešu (Latvian)"
-          - const: "ml"
+          - type: string
+            const: "ml"
             title: "മലയാളം (Malayalam)"
-          - const: "ms"
+          - type: string
+            const: "ms"
             title: "Melayu (Malay)"
-          - const: "nb-NO"
+          - type: string
+            const: "nb-NO"
             title: "Norsk bokmål, Norge (Norwegian bokmål, Norway)"
-          - const: "nl"
+          - type: string
+            const: "nl"
             title: "Nederlands (Dutch)"
-          - const: "nl-BE"
+          - type: string
+            const: "nl-BE"
             title: "Nederlands, België (Dutch, Belgium)"
-          - const: "oc"
+          - type: string
+            const: "oc"
             title: "Occitan"
-          - const: "pa"
+          - type: string
+            const: "pa"
             title: "ਪੰਜਾਬੀ (Punjabi)"
-          - const: "pap"
+          - type: string
+            const: "pap"
             title: "Papiamento"
-          - const: "pl"
+          - type: string
+            const: "pl"
             title: "Polski (Polish)"
-          - const: "pt"
+          - type: string
+            const: "pt"
             title: "Português (Portuguese)"
-          - const: "pt-BR"
+          - type: string
+            const: "pt-BR"
             title: "Português, Brasil (Portuguese, Brazil)"
-          - const: "ro"
+          - type: string
+            const: "ro"
             title: "Română (Romanian)"
-          - const: "ru"
+          - type: string
+            const: "ru"
             title: "Русский (Russian)"
-          - const: "si"
+          - type: string
+            const: "si"
             title: "සිංහල (Sinhala)"
-          - const: "sk"
+          - type: string
+            const: "sk"
             title: "Slovenčina (Slovak)"
-          - const: "sl"
+          - type: string
+            const: "sl"
             title: "Slovenščina (Slovenian)"
-          - const: "sr"
+          - type: string
+            const: "sr"
             title: "Српски (Serbian)"
-          - const: "sv"
+          - type: string
+            const: "sv"
             title: "Svenska (Swedish)"
-          - const: "szl"
+          - type: string
+            const: "szl"
             title: "Ślōnski (Silesian)"
-          - const: "ta"
+          - type: string
+            const: "ta"
             title: "தமிழ் (Tamil)"
-          - const: "te"
+          - type: string
+            const: "te"
             title: "తెలుగు (Telugu)"
-          - const: "th"
+          - type: string
+            const: "th"
             title: "ไทย (Thai)"
-          - const: "tr"
+          - type: string
+            const: "tr"
             title: "Türkçe (Turkish)"
-          - const: "tt"
+          - type: string
+            const: "tt"
             title: "Татар (Tatar)"
-          - const: "uk"
+          - type: string
+            const: "uk"
             title: "Українська (Ukrainian)"
-          - const: "vi"
+          - type: string
+            const: "vi"
             title: "Tiếng việt (Vietnamese)"
-          - const: "zh-HK"
+          - type: string
+            const: "zh-HK"
             title: "中文, 中國香港特別行政區 (Chinese, Hong Kong SAR China)"
-          - const: "zh-Hans-CN"
+          - type: string
+            const: "zh-Hans-CN"
             title: "中文, 中国 (Chinese, China)"
-          - const: "zh-Hant-TW"
+          - type: string
+            const: "zh-Hant-TW"
             title: "中文, 台灣 (Chinese, Taiwan)"
-  
+
       region:
         type: string
         title: Region
         description: "Geographic region for the news search."
         oneOf:
-          - const: "af"
+          - type: string
+            const: "af"
             title: "Afrikaans"
-          - const: "ar"
+          - type: string
+            const: "ar"
             title: "العربية (Arabic)"
-          - const: "bg"
+          - type: string
+            const: "bg"
             title: "Български (Bulgarian)"
-          - const: "bn"
+          - type: string
+            const: "bn"
             title: "বাংলা (Bangla)"
-          - const: "bo"
+          - type: string
+            const: "bo"
             title: "བོད་སྐད་ (Tibetan)"
-          - const: "ca"
+          - type: string
+            const: "ca"
             title: "Català (Catalan)"
-          - const: "cs"
+          - type: string
+            const: "cs"
             title: "Čeština (Czech)"
-          - const: "cy"
+          - type: string
+            const: "cy"
             title: "Cymraeg (Welsh)"
-          - const: "da"
+          - type: string
+            const: "da"
             title: "Dansk (Danish)"
-          - const: "de"
+          - type: string
+            const: "de"
             title: "Deutsch (German)"
-          - const: "dv"
+          - type: string
+            const: "dv"
             title: "ދިވެހި (Dhivehi)"
-          - const: "el-GR"
+          - type: string
+            const: "el-GR"
             title: "Ελληνικά, Ελλάδα (Greek, Greece)"
-          - const: "en"
+          - type: string
+            const: "en"
             title: "English"
-          - const: "eo"
+          - type: string
+            const: "eo"
             title: "Esperanto"
-          - const: "es"
+          - type: string
+            const: "es"
             title: "Español (Spanish)"
-          - const: "et"
+          - type: string
+            const: "et"
             title: "Eesti (Estonian)"
-          - const: "eu"
+          - type: string
+            const: "eu"
             title: "Euskara (Basque)"
-          - const: "fa-IR"
+          - type: string
+            const: "fa-IR"
             title: "فارسی, ایران (Persian, Iran)"
-          - const: "fi"
+          - type: string
+            const: "fi"
             title: "Suomi (Finnish)"
-          - const: "fil"
+          - type: string
+            const: "fil"
             title: "Filipino"
-          - const: "fr"
+          - type: string
+            const: "fr"
             title: "Français (French)"
-          - const: "ga"
+          - type: string
+            const: "ga"
             title: "Gaeilge (Irish)"
-          - const: "gl"
+          - type: string
+            const: "gl"
             title: "Galego (Galician)"
-          - const: "he"
+          - type: string
+            const: "he"
             title: "עברית (Hebrew)"
-          - const: "hr"
+          - type: string
+            const: "hr"
             title: "Hrvatski (Croatian)"
-          - const: "hu"
+          - type: string
+            const: "hu"
             title: "Magyar (Hungarian)"
-          - const: "ia"
+          - type: string
+            const: "ia"
             title: "Interlingua"
-          - const: "id"
+          - type: string
+            const: "id"
             title: "Indonesia (Indonesian)"
-          - const: "it"
+          - type: string
+            const: "it"
             title: "Italiano (Italian)"
-          - const: "ja"
+          - type: string
+            const: "ja"
             title: "日本語 (Japanese)"
-          - const: "ko"
+          - type: string
+            const: "ko"
             title: "한국어 (Korean)"
-          - const: "lt"
+          - type: string
+            const: "lt"
             title: "Lietuvių (Lithuanian)"
-          - const: "lv"
+          - type: string
+            const: "lv"
             title: "Latviešu (Latvian)"
-          - const: "ml"
+          - type: string
+            const: "ml"
             title: "മലയാളം (Malayalam)"
-          - const: "ms"
+          - type: string
+            const: "ms"
             title: "Melayu (Malay)"
-          - const: "nb-NO"
+          - type: string
+            const: "nb-NO"
             title: "Norsk bokmål, Norge (Norwegian bokmål, Norway)"
-          - const: "nl"
+          - type: string
+            const: "nl"
             title: "Nederlands (Dutch)"
-          - const: "nl-BE"
+          - type: string
+            const: "nl-BE"
             title: "Nederlands, België (Dutch, Belgium)"
-          - const: "oc"
+          - type: string
+            const: "oc"
             title: "Occitan"
-          - const: "pa"
+          - type: string
+            const: "pa"
             title: "ਪੰਜਾਬੀ (Punjabi)"
-          - const: "pap"
+          - type: string
+            const: "pap"
             title: "Papiamento"
-          - const: "pl"
+          - type: string
+            const: "pl"
             title: "Polski (Polish)"
-          - const: "pt"
+          - type: string
+            const: "pt"
             title: "Português (Portuguese)"
-          - const: "pt-BR"
+          - type: string
+            const: "pt-BR"
             title: "Português, Brasil (Portuguese, Brazil)"
-          - const: "ro"
+          - type: string
+            const: "ro"
             title: "Română (Romanian)"
-          - const: "ru"
+          - type: string
+            const: "ru"
             title: "Русский (Russian)"
-          - const: "si"
+          - type: string
+            const: "si"
             title: "සිංහල (Sinhala)"
-          - const: "sk"
+          - type: string
+            const: "sk"
             title: "Slovenčina (Slovak)"
-          - const: "sl"
+          - type: string
+            const: "sl"
             title: "Slovenščina (Slovenian)"
-          - const: "sr"
+          - type: string
+            const: "sr"
             title: "Српски (Serbian)"
-          - const: "sv"
+          - type: string
+            const: "sv"
             title: "Svenska (Swedish)"
-          - const: "szl"
+          - type: string
+            const: "szl"
             title: "Ślōnski (Silesian)"
-          - const: "ta"
+          - type: string
+            const: "ta"
             title: "தமிழ் (Tamil)"
-          - const: "te"
+          - type: string
+            const: "te"
             title: "తెలుగు (Telugu)"
-          - const: "th"
+          - type: string
+            const: "th"
             title: "ไทย (Thai)"
-          - const: "tr"
+          - type: string
+            const: "tr"
             title: "Türkçe (Turkish)"
-          - const: "tt"
+          - type: string
+            const: "tt"
             title: "Татар (Tatar)"
-          - const: "uk"
+          - type: string
+            const: "uk"
             title: "Українська (Ukrainian)"
-          - const: "vi"
+          - type: string
+            const: "vi"
             title: "Tiếng việt (Vietnamese)"
-          - const: "zh-HK"
+          - type: string
+            const: "zh-HK"
             title: "中文, 中國香港特別行政區 (Chinese, Hong Kong SAR China)"
-          - const: "zh-Hans-CN"
+          - type: string
+            const: "zh-Hans-CN"
             title: "中文, 中国 (Chinese, China)"
-          - const: "zh-Hant-TW"
+          - type: string
+            const: "zh-Hant-TW"
             title: "中文, 台灣 (Chinese, Taiwan)"
-  
+
       time_range:
         type: string
         title: Time Range
         description: "How far back to search for news."
         oneOf:
-          - const: "day"
+          - type: string
+            const: "day"
             title: "Past 24 Hours"
-          - const: "week"
+          - type: string
+            const: "week"
             title: "Past Week"
-          - const: "month"
+          - type: string
+            const: "month"
             title: "Past Month"
-          - const: "year"
+          - type: string
+            const: "year"
             title: "Past Year"
-  
+
   output:
     type: object
     properties:
@@ -309,4 +437,3 @@ showcase:
         type: string
         title: Summary
         description: "The generated summary of the news results."
-  
