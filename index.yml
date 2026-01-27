@@ -5,7 +5,7 @@
   homepage: https://github.com/Swarmind/newsDemoAgent
   mode: showcase
 
-- name: Sample listing
+- name: Sample listing Test
   url: github:Swarmind/agent_gallery/agents/demo_listing.yml@master
   description: |
     A dummy listing demo
